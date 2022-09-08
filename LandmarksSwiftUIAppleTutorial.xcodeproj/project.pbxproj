@@ -62,13 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				8A1014AC28BFFDED00280127 /* LandmarksSwiftUIAppleTutorialApp.swift */,
-				8A1014AE28BFFDED00280127 /* ContentView.swift */,
-				8A47364328C380DA0052BBF3 /* MapView.swift */,
-				8A1014BE28C131EF00280127 /* CircleImage.swift */,
-				8ADB1DF728CA561400962616 /* Landmark.swift */,
-				8ADB1DF928CA581E00962616 /* ModelData.swift */,
-				8A1014B028BFFDEE00280127 /* Assets.xcassets */,
-				8ADB1DF528CA55E300962616 /* landmarkData.json */,
+				8ADB1DFB28CA5EC100962616 /* Views */,
+				8ADB1DFC28CA5ED300962616 /* Model */,
+				8ADB1DFD28CA5EE500962616 /* Resourses */,
 				8A1014B228BFFDEE00280127 /* Preview Content */,
 			);
 			path = LandmarksSwiftUIAppleTutorial;
@@ -80,6 +76,34 @@
 				8A1014B328BFFDEE00280127 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8ADB1DFB28CA5EC100962616 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8A1014AE28BFFDED00280127 /* ContentView.swift */,
+				8A47364328C380DA0052BBF3 /* MapView.swift */,
+				8A1014BE28C131EF00280127 /* CircleImage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8ADB1DFC28CA5ED300962616 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8ADB1DF728CA561400962616 /* Landmark.swift */,
+				8ADB1DF928CA581E00962616 /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8ADB1DFD28CA5EE500962616 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				8A1014B028BFFDEE00280127 /* Assets.xcassets */,
+				8ADB1DF528CA55E300962616 /* landmarkData.json */,
+			);
+			path = Resourses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
